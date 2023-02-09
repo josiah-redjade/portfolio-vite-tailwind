@@ -73,7 +73,7 @@
                 <div class="w-full flex my-8 min-h-[6rem] h-auto">
                     <div class="flex-1 w-full flex flex-col p-4 px-6 text-gray-200 bg-slate-600 shadow-md shadow-gray-700 rounded">
                         <a target="_blank" rel="noreferrer" href={project.link} class="mb-1 w-full hover:underline text-gray-50 text-lg leading-0 font-bold">{project.name}</a>
-                        <p class="leading-[1.5] w-full break-words">
+                        <p class="leading-[1.5] mb-2 w-full break-words">
                             <img class="w-16 h-16 float-right  border-b-4 border-r-4 border-b-gray-300 border-r-gray-500 h-20 object-cover m-2 ml-3 mt-0 rounded-md opacity-90" src={project.image || "EmptyCode.png"}/>
                             {project.description}
 
