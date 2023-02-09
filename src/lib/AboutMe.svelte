@@ -36,12 +36,12 @@
             (Also, for anyone who is curious, <em>this</em> portfolio website was graphically prototyped with PenPot, and coded with Svelte and Tailwind! This combination is new to me, but I love working with it.)
         </p>
         <div class="tracking-[0.1rem] mb-10 text-slate-100 text-sm  font-['Spinaker'] m-auto w-max bg-[var(--blue-dark)] p-3 px-10 shadow-lg rounded-3xl flex  transition justify-center">
-            <a class="hover:scale-110 flex justify-center items-center flex-col" href="/">
-                <img class="w-16  m-3" src="/github.png" alt="Github Link"/>
+            <a target="_blank" rel="noreferrer" class="hover:scale-110 transition scale-100 flex justify-center items-center flex-col" href="https://github.com/jspranklemusic">
+                <img class="w-16  m-4" src="/github.png" alt="Github Link"/>
                 <span>GITHUB</span>
             </a>
-            <a class="hover:scale-110 flex justify-center items-center flex-col" href="/">
-                <img class="w-16  m-3" src="/linkedin.png" alt="LinkedIn Link"/>
+            <a target="_blank" rel="noreferrer" class="hover:scale-110 transition scale-100 flex justify-center items-center flex-col" href="https://www.linkedin.com/in/josiah-sprankle-8862a1103/">
+                <img class="w-16  m-4" src="/linkedin.png" alt="LinkedIn Link"/>
                 <span>LINKEDIN</span>
             </a>
         </div>
