@@ -1,4 +1,9 @@
-<div on:click on:keydown class="
+<script lang="ts">
+    export let type : "button" | "reset" | "submit" | null | undefined = "button";
+</script>
+
+<button 
+type={type} on:click on:keydown class="
     font-['Quicksand'] 
     font-bold 
     bg-yellow-500 
@@ -10,6 +15,7 @@
     transition
     hover:bg-[#daa41e]
      active:bg-[#c09122]
-    p-6">
+    p-6"
+    >
 <slot/>
-</div>
+</button>

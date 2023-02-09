@@ -33,7 +33,7 @@
             <Link href="https://www.youtube.com/user/Kopaka0111/videos">YouTube page.</Link> 
         </p>
         <p class="paragraph">
-            (Also, for anyone who is curious, <em>this</em> portfolio website was designed with Svelte and Tailwind! This combination is new to me, but I love working with it.)
+            (Also, for anyone who is curious, <em>this</em> portfolio website was graphically prototyped with PenPot, and coded with Svelte and Tailwind! This combination is new to me, but I love working with it.)
         </p>
         <div class="tracking-[0.1rem] mb-10 text-slate-100 text-sm  font-['Spinaker'] m-auto w-max bg-[var(--blue-dark)] p-3 px-10 shadow-lg rounded-3xl flex  transition justify-center">
             <a class="hover:scale-110 flex justify-center items-center flex-col" href="/">

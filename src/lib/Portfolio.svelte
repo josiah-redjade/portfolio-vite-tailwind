@@ -24,7 +24,7 @@
 
 
     const tags = ['all', ...new Set(projects.map(project => project.tags).flat())];
-    const featuredProjects = [projects[2], projects[5], projects[8]];
+    const featuredProjects = [projects[2], projects[3], projects[8]];
     let selectedTag = tags[0];
     let searchText = "";
     let filteredProjects = filterProjects();

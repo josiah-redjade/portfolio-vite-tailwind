@@ -1,4 +1,20 @@
 [
+    {
+        "name":"Batmobile Run",
+        "description":"A work-in-progress 2D racing game where you must dodge obstacles, shoot batarangs, and navigate the streets of Gotham. Work-in-progress.",
+        "link":"https://batmanracergame.netlify.app/",
+        "image":"batmobile-run.png",
+        "langs":["javascript","html","css", "react"],
+        "tags":["game"]
+    },
+    {
+        "name":"Word Unscrambler",
+        "description":"A word-unscrambling algorithm that uses Node.js, Cheerio, and Axios for dictionary lookup via web-scraping.",
+        "link":"https://wordunscramblerapi.josiahsprankle.repl.co/",
+        "image":"",
+        "langs":["node","javascript","html","express"],
+        "tags":["algorithm","backend"]
+    },
     {   
         "name":"Computle",
         "description":"A computer-themed word-guessing game inspired by Wordle. Made with Vanilla JS.",
@@ -14,14 +30,6 @@
         "image":"myflashcards.png",
         "langs":["vue","html","css","mongodb"],
         "tags":["productivity"]
-    },
-    {
-        "name":"Batmobile Run",
-        "description":"A work-in-progress 2D racing game where you must dodge obstacles, shoot batarangs, and navigate the streets of Gotham. Work-in-progress.",
-        "link":"https://dainty-monstera-d4adb0.netlify.app/",
-        "image":"batmobile-run.png",
-        "langs":["javascript","html","css"],
-        "tags":["game"]
     },
     {
         "name":"Draw-Mini",
@@ -54,14 +62,6 @@
         "image":"maze.png",
         "langs":["javascript","html","css"],
         "tags":["algorithm"]
-    },
-    {
-        "name":"Word Unscrambler",
-        "description":"A word-unscrambling algorithm that uses Node.js, Cheerio, and Axios for dictionary lookup via web-scraping.",
-        "link":"https://wordunscramblerapi.josiahsprankle.repl.co/",
-        "image":"",
-        "langs":["node","javascript","html","express"],
-        "tags":["algorithm","backend"]
     },
     {
         "name":"Sudoku Solver",
