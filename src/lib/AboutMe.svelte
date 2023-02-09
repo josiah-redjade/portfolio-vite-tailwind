@@ -26,10 +26,14 @@
             and have completed the 
             <Link href="https://www.credly.com/badges/23cf3962-2906-4ec7-897f-3e9de7449495/public_url">AWS Associate Developer Exam.</Link>
         </p>
+   
         <p class="paragraph">
             As for my personal life, I am also a husband & father, and a classically-trained pianist/composer, and a Christian. I live in Staunton, Virginia and lead worship at <Link href="https://www.restorationstaunton.org/">Restoration Anglican Church.</Link> 
             If you're interested, you can check out my <Link href="https://josiahspranklemusic.com/app/">music site</Link> or my 
             <Link href="https://www.youtube.com/user/Kopaka0111/videos">YouTube page.</Link> 
+        </p>
+        <p class="paragraph">
+            (Also, for anyone who is curious, <em>this</em> portfolio website was designed with Svelte and Tailwind! This combination is new to me, but I love working with it.)
         </p>
         <div class="tracking-[0.1rem] mb-10 text-slate-100 text-sm  font-['Spinaker'] m-auto w-max bg-[var(--blue-dark)] p-3 px-10 shadow-lg rounded-3xl flex  transition justify-center">
             <a class="hover:scale-110 flex justify-center items-center flex-col" href="/">

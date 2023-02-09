@@ -45,7 +45,9 @@
         <div class="grid grid-cols-3 bg-slate-700 grid-rows-1 rounded-xl mb-8 w-full h-40">
             {#each featuredProjects as project}
                 <div class="flex flex-col h-full p-4 pr-0 last:pr-4 relative">
-                    <img class="h-full rounded shadow-slate-900 shadow-md object-cover flex-1" src={"/" + project.image}/>
+                    <a target="_blank" class="rounded h-full w-full shadow-slate-900 shadow-md  flex-1" rel="noreferrer" href={project.link}>
+                        <img class="w-full h-full object-cover hover:opacity-80" src={"/" + project.image}/>
+                    </a>
                     <span class="absolute left-1/2 font-['Spinaker'] tracking-widest bottom-6 translate-x-[-50%] uppercase text-xs text-gray-200 bg-[rgba(0,0,0,.75)] p-2 px-4 w-max rounded ">{project.name}</span>
                 </div>
             {/each} 
@@ -66,14 +68,11 @@
             {/each}
         </div>
         
-        <div class="flex-1 pl-6">
+        <div class="flex-1">
             {#each filteredProjects as project}
                 <div class="w-full flex my-8 min-h-[6rem] h-auto">
-                    <!-- <div class="w-20 h-full max-sm:hidden flex items-center justify-center">
-                        <img class="w-20  border-b-4 border-r-4 border-b-gray-300 border-r-gray-500 h-20 object-cover mr-8 rounded-md opacity-90" src={project.image || "EmptyCode.png"}/>
-                    </div> -->
                     <div class="flex-1 w-full flex flex-col p-4 px-6 text-gray-200 bg-slate-600 shadow-md shadow-gray-700 rounded">
-                        <a href={project.link} class="mb-1 w-full hover:underline text-gray-50 text-lg leading-0 font-bold">{project.name}</a>
+                        <a target="_blank" rel="noreferrer" href={project.link} class="mb-1 w-full hover:underline text-gray-50 text-lg leading-0 font-bold">{project.name}</a>
                         <p class="leading-[1.5] w-full break-words">
                             <img class="w-16 h-16 float-right  border-b-4 border-r-4 border-b-gray-300 border-r-gray-500 h-20 object-cover m-2 ml-3 mt-0 rounded-md opacity-90" src={project.image || "EmptyCode.png"}/>
                             {project.description}
