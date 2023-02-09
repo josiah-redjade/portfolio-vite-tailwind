@@ -42,7 +42,7 @@
         </div>
     </div>
     <div class="bg-slate-100 min-w-[300px] min-h-[20rem] drop-shadow-md w-full h-full flex items-center justify-center overflow-hidden rounded-tr-lg rounded-br-lg">
-        <img class=" saturate-0 w-3/5 h-3/4 object-cover rounded-tl-[10rem] box-content border-b-gray-300 border-b-[3rem] border-r-gray-300 border-r-[3rem] rounded-br-[10rem]" src="/josiah-profile.jpg" alt=""/>
+        <img class=" saturate-0 w-3/5 h-3/4 object-cover rounded-tl-[10rem] box-content border-b-gray-300 border-b-[3rem] border-r-gray-300 border-r-[3rem] rounded-br-[10rem]" src="/josiah-profile-thanksgiving.png" alt=""/>
     </div>
     <a href="/#about-me" class="absolute left-1/2 bottom-20  translate-x-[-50%] ">
         <ActionButton>
