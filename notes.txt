@@ -1,0 +1,7 @@
+ok, I am adding blogs to this.
+
+home
+about me
+contact
+portfolio
+blog

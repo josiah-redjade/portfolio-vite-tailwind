@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .btn-primary {
+      @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+    }
+    .link {
+      @apply text-blue-500 hover:underline font-semibold
+    }
+    .paragraph {
+      @apply max-w-2xl  indent-4 text-lg leading-10 my-8 m-auto text-slate-900
+    }
+  }
+
+:root {
+  --blue-dark: #354b8c;
+  --blue-ultradark: #132867;
+  --blue-mediumdark: #4e63a2;
+  --blue-medium: #5e71ab;
+  --blue-mediumlight: #7e91ca;
+  --blue-light: #a1b1e1;
+  --blue-ultralight: #d0daf7;
+  --bluegrey-dark: #42527F;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-touch-callout: none;
+}
+
+@font-face {
+  font-family: "Spinaker";
+  src: url(/Spinnaker-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url(/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url(/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(/Roboto-Black.ttf);
+}
+
+/*  */
+
+@font-face {
+  font-family: "SourceSerifPro-Regular";
+  src: url(/SourceSerifPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "SourceSerifPro-Bold";
+  src: url(/SourceSerifPro-Bold.ttf);
+}
+
+@font-face {
+  font-family: "SourceSerifPro-BoldItalic";
+  src: url(/SourceSerifPro-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "SourceSerifPro-Medium";
+  src: url(/SourceSerifPro-Medium.ttf);
+}
+
+@font-face {
+  font-family: "SourceSerifPro-Thin";
+  src: url(/SourceSerifPro-Thin.ttf);
+}
+
+@font-face {
+  font-family: "SourceSerifPro-Regular";
+  src: url(/SourceSerifPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "SourceSerifPro-ThinItalic";
+  src: url(/SourceSerifPro-ThinItalic.ttf);
+}
+
+@font-face {
+  font-family: "SourceSerifPro-Black";
+  src: url(/SourceSerifPro-Black.ttf);
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url(/Quicksand-VariableFont_wght.ttf)
+}
+
+body {
+  position: relative;
+}
+
+
+@media only screen and (max-width: 2000px) { 
+  html {
+    font-size: 110%;
+  }
+}
+
+
+@media only screen and (max-width: 1536px) { 
+  html {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 1280px) { 
+  html {
+    font-size: 95%;
+  }
+}
+
+@media only screen and (max-width: 1024px) { 
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+  html {
+    font-size: 87%;
+  }
+}
+
+@media only screen and (max-width: 640px) { 
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width: 380px) { 
+  html {
+    font-size: 80%;
+  }
+}
