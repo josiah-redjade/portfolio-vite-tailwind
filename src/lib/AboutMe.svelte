@@ -8,9 +8,9 @@
     }
 </style>
 
-<div id="about-me" class="w-screen font-['Quicksand'] pt-4">
-    <section class="p-4 border-r-slate-200 border-r-2 relative bottom-shadow">
-        <h1 class="text-6xl text-center m-4 font-semibold">About Me</h1>
+<div  class="w-screen font-['Quicksand'] pt-4">
+    <section id="about-me" class="p-4 border-r-slate-200 border-r-2 relative bottom-shadow">
+        <h1  class="text-6xl text-center m-4 font-semibold">About Me</h1>
         <p class="paragraph">
             My name is Josiah, and I am a full-stack web developer with a passion for bringing new projects to life.
             I enjoy coding because it combines creativity and problem-solving. 

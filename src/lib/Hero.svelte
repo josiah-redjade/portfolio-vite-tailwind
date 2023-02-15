@@ -19,13 +19,13 @@
     bg-gradient-to-b  
     from-slate-200 
     to-slate-300">
-    <div class="bg-[#5c83f9] min-w-[300px] min-h-[36rem] drop-shadow-md rounded-tl-lg rounded-bl-lg flex flex-col relative justify-between overflow-hidden">
-        <div class="w-full  basis-1/5 relative z-10">
+    <div  class="bg-[#5c83f9] min-w-[300px] min-h-[36rem] drop-shadow-md rounded-tl-lg rounded-bl-lg flex flex-col relative justify-between overflow-hidden">
+        <div   class="w-full  basis-1/5 relative z-10">
             <div class="bg-gray-300  absolute right-0 top-10 p-6 font-['Spinaker'] w-max max-sm:text-md max-sm:px-2 xl:text-lg 2xl:text-xl rounded-tl-[2rem] tracking-[0.5rem] rounded-br-[2rem]">
                 FULL STACK DEVELOPER
             </div>
         </div>
-        <h1 class="font-['Roboto-Bold'] basis-3/5 flex flex-col justify-center tracking-tight  2xl:text-[8rem] xl:text-[6rem] text-[4rem] text-center drop-shadow-lg leading-none text-white font-bold z-10">
+        <h1  id="home" class="font-['Roboto-Bold'] basis-3/5 flex flex-col justify-center tracking-tight  2xl:text-[8rem] xl:text-[6rem] text-[4rem] text-center drop-shadow-lg leading-none text-white font-bold z-10">
             <div class=" font-['Quicksand'] mt-[-2rem] tracking-normal text-4xl text-center text-slate-200">Hi, I'm</div>
            <span class="text-left pl-10 mt-5">
             Josiah Sprankle.
