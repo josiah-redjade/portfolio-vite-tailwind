@@ -34,14 +34,14 @@
 </script>
 
 <section  class="bg-gray-500 w-screen font-['Quicksand'] justify-center items-center p-4 lg:grid lg:grid-cols-2 h-fit min-h-[100vh]">
-    <div class="flex flex-col h-max p-8  justify-center items-center">
-        <img src="/Laptop.svg" alt="">
+    <div  class="flex flex-col h-max p-8  justify-center items-center">
+        <img id="portfolio"  src="/Laptop.svg" alt="">
         <h1 class="text-white text-6xl font-bold">Portfolio</h1>
         <p class="text-yellow-400 text-2xl font-semibold">See some of my work.</p>
     </div>
     <div class="p-8 mx-auto my-8 rounded-xl overflow-scroll overflow-x-hidden to-slate-700 from-slate-600 bg-gradient-to-b max-w-[50rem] lg:mr-0 w-9/10 h-[45rem]">
         <!-- FEATURED PROJECTS -->
-        <h1  id="portfolio"  class="left-1/2 font-['Spinaker'] tracking-widest text-center uppercase text-gray-200 mb-4">Featured</h1>
+        <h1 class="left-1/2 font-['Spinaker'] tracking-widest text-center uppercase text-gray-200 mb-4">Featured</h1>
         <div class="grid grid-cols-3 bg-slate-700 grid-rows-1 rounded-xl mb-8 w-full h-40">
             {#each featuredProjects as project}
                 <div class="flex flex-col h-full p-4 pr-0 last:pr-4 relative">

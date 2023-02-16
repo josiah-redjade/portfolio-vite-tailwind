@@ -16,7 +16,7 @@
     let jumpingToLink : any = null;
 
     function navClickHandler(i: number) {
-        jumpingToLink = setTimeout(()=> jumpingToLink = null, 300)
+        jumpingToLink = setTimeout(()=> jumpingToLink = null, 1000)
         selectedIndex = i;
     }
 

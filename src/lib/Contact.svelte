@@ -4,11 +4,11 @@
 
 </script>
 
-<div class="h-screen min-h-[50rem] font-['Quicksand'] bg-radial-gradient w-screen flex items-center justify-center">
-    <form name="netlify-form-example" method="POST" id="form" netlify-honeypot="bot-field" data-netlify="true" class="relative text-center from-blue-400 to-blue-500 bg-gradient-to-b p-8 min-w-[320px] max-w-[600px] rounded-xl shadow-lg w-2/3">
+<div  class="h-screen min-h-[50rem] font-['Quicksand'] bg-radial-gradient w-screen flex items-center justify-center">
+    <form  name="netlify-form-example" method="POST" id="form" netlify-honeypot="bot-field" data-netlify="true" class="relative text-center from-blue-400 to-blue-500 bg-gradient-to-b p-8 min-w-[320px] max-w-[600px] rounded-xl shadow-lg w-2/3">
         <input type="hidden" name="form-name" value="netlify-form-example" />
-            <div class="relative z-10">
-                <h1  id="contact" class="text-6xl text-white font-semibold">Contact Me</h1>
+            <div  class="relative z-10">
+                <h1 id="contact" class="text-6xl text-white font-semibold">Contact Me</h1>
                 <h2 class="text-2xl">Let's get in touch.</h2>
                 <div class="p-4 w-full">
                     <label class="block w-full font-semibold my-2 text-lg" for="name">Name</label>
