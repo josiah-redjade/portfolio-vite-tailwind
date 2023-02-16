@@ -1,13 +1,5 @@
 [
     {
-        "name":"Audio Sample",
-        "description":"The early stages of a simple, browser-based DAW (digital audio workstation) - for multi-track audio editing and playback",
-        "link":"https://audio-sample-daw.netlify.app",
-        "image":"audio-sample.png",
-        "langs":["javascript","html","css", "c++", "bash"],
-        "tags":["frontend", "productivity"]
-    },
-    {
         "name":"Batmobile Run",
         "description":"A work-in-progress 2D racing game where you must dodge obstacles, shoot batarangs, and navigate the streets of Gotham. Work-in-progress.",
         "link":"https://batmanracergame.netlify.app/",
@@ -22,6 +14,14 @@
         "image":"",
         "langs":["node","javascript","html","express"],
         "tags":["algorithm","backend"]
+    },
+    {
+        "name":"Audio Sample",
+        "description":"The early stages of a simple, browser-based DAW (digital audio workstation) - for multi-track audio editing and playback",
+        "link":"https://audio-sample-daw.netlify.app",
+        "image":"audio-sample.png",
+        "langs":["javascript","html","css", "c++", "bash"],
+        "tags":["frontend", "productivity"]
     },
     {   
         "name":"Computle",
