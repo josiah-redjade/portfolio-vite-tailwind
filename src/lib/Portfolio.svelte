@@ -1,6 +1,7 @@
 <script lang="ts">
     import projects from "../projects.json";
     import CoolRadioButton from "./CoolRadioButton.svelte";
+    import UilSearch from '~icons/uil/search'
 
     function filterProjects() {
         const filteredProjects : typeof projects = [];
@@ -56,8 +57,11 @@
     
         <!-- RADIO BUTTONS -->
         <div class="my-4">
-            <div class="w-full px-2 m-2 mb-6">
+            <div class="w-full px-2 m-2 mb-6 relative">
                 <input on:input={e => inputHandler(e)} value={searchText} class="w-full p-2 text-lg px-4 rounded-full" placeholder="Search here..."/>
+                <div class="absolute right-6 top-0 w-max h-full flex items-center">
+                     <UilSearch class=" text-gray-400"/>
+                </div>
             </div>
             {#each tags as tag}
                 <CoolRadioButton

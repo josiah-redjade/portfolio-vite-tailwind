@@ -1,6 +1,7 @@
 <script lang="ts">
     //@ts-nocheck
     import ActionButton from "./ActionButton.svelte";
+    import UilCommentAltMessage from '~icons/uil/comment-alt-message'
 
 </script>
 
@@ -8,7 +9,7 @@
     <form  name="netlify-form-example" method="POST" id="form" netlify-honeypot="bot-field" data-netlify="true" class="relative text-center from-blue-400 to-blue-500 bg-gradient-to-b p-8 min-w-[320px] max-w-[600px] rounded-xl shadow-lg w-2/3">
         <input type="hidden" name="form-name" value="netlify-form-example" />
             <div  class="relative z-10">
-                <h1 id="contact" class="text-6xl text-white font-semibold">Contact Me</h1>
+                <h1 id="contact" class="text-6xl text-white font-semibold">Contact Me </h1>
                 <h2 class="text-2xl">Let's get in touch.</h2>
                 <div class="p-4 w-full">
                     <label class="block w-full font-semibold my-2 text-lg" for="name">Name</label>
@@ -24,7 +25,7 @@
                 </div>
                 <div class="w-max mx-auto my-4">
                     <ActionButton type="submit">
-                        Send Message
+                        Send Message <span class="inline-block p-0 m-0 ml-2 w-max"><UilCommentAltMessage/></span>
                     </ActionButton>
                 </div>
             </div>

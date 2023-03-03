@@ -13,6 +13,8 @@ type={type} on:click on:keydown class="
     text-xl
     cursor-pointer
     transition
+    flex
+    items-center
     hover:bg-[#daa41e]
      active:bg-[#c09122]
     p-6"
