@@ -61,6 +61,7 @@
                 <input on:input={e => inputHandler(e)} value={searchText} class="w-full p-2 text-lg px-4 rounded-full" placeholder="Search here..."/>
                 <div class="absolute right-6 top-0 w-max h-full flex items-center">
                      <UilSearch class=" text-gray-400"/>
+
                 </div>
             </div>
             {#each tags as tag}

@@ -12,10 +12,14 @@ export default defineConfig({
 		sveltekit(),
 		Inspect(),
 		AutoImport({
+			include: [
+				/\.svelte$/,
+				/\.(js|ts$)/
+			  ],
+			
 			resolvers: [
 				IconsResolver({
-					prefix: 'Icon',
-					extension: 'svelte',
+					prefix: 'icon',
 				}),
 			],
 			imports: [
